@@ -44,8 +44,8 @@
 }
 
 .home,
-.services,
-.products,
+.quiz,
+.insights,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -54,8 +54,8 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url("/images/img-2.jpg");
+.quiz {
+  background-image: url("/public/images/img-quiz.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,8 +63,8 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url("/images/img-1.jpg");
+.insights {
+  background-image: url("/public/images/img-insights.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@
 }
 
 .sign-up {
-  background-image: url("/images/img-8.jpg");
+  background-image: url("/public/images/img-signup.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
